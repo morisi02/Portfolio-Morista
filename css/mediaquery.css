@@ -1,0 +1,186 @@
+@media only screen and (min-width: 768px) {
+    
+  }
+
+
+  @media only screen and (min-width: 992px) {
+   
+  }
+
+  /* TELEFONI */
+  @media only screen and (max-width: 767px) {
+    #titleEx2{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #row{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .ezio{
+        flex-wrap: wrap;
+    }
+
+    .ezioUl{
+        width: 100%;
+    }
+
+    .ezioHr{
+        border-top: 3px solid #000000; 
+        width: 100%;
+        margin-left: 0;
+        display: block;
+    }
+  
+    #containerBottoni{
+        width: 100%;
+    }
+
+    .bottoneWork{
+        width: 100%;
+    }
+
+    #workProject, #musicProject{
+        flex-direction: column;
+        align-items: center;
+    }
+    .immagineWork{
+        max-width: 70%;
+    }
+
+    .logoWork{
+        width: 100%;
+    }
+
+    .titoloCarosello{
+       margin-left: 10px;
+       margin-right: 10px;
+       font-size: 25px;
+    }
+
+    .certificato{
+        width: 50px;
+    }
+
+    nav{
+        position: relative;
+    }
+
+
+    .contenitore{
+      display: none;
+      
+    }
+
+
+
+
+    .navLinee{
+        position: absolute;
+        display: table;
+        cursor: pointer;
+        top: 50%;
+        z-index: 100;
+        right: 5%;
+        transform: translate(-10%, 50%);
+    }
+
+    .is-sticky .navLinee{
+       transform: translate(-10%, -30%);
+    }
+    
+    .line{
+        width: 30px;
+        height: 2px;
+        background-color: #ffececd3;
+        margin: 5px;
+    }
+
+    .showMenu{
+        margin-top: 0px;
+        position: fixed;
+        right: 0%;
+        /*background-color: rgba(209, 52, 52, 0.93);*/
+        margin-right: 0;
+        width: 30%;
+        height: 100vh;
+        top: 0%;
+        transition: all 0.3s;
+        z-index: 0;
+        /*box-shadow: 0 4px 8px 0 rgba(59, 50, 43, 0.789);*/
+    }
+
+  
+
+
+    .ulTelefono{
+        height: 60%;
+        display: contents;
+        padding: 10px;
+        margin-top: 80px;
+        list-style-type: none;
+        text-align: center;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       
+    }
+
+    .showMenu hr{
+        border: 1.5px solid #494343;
+        width: 80%;
+        opacity: 0.6;
+    }
+
+    .ulTelefono a{
+        color: aliceblue;
+        font-weight: bold(8px);
+        font-size: 1.8rem;
+    }
+
+    .ulTelefono li{
+        margin-top: 50px;
+    }
+
+  }
+
+  .homee{
+    height: 35px;
+    background-color: rgba(209, 52, 52, 0.93);
+    width: 125px;
+    display: flex;
+    border-radius: 15px;
+  }
+
+  .homee a{
+    padding-top: 3px;
+    padding-left: 23px;
+  }
+
+  .homee:nth-child(2){
+    transition-delay: 100ms;
+  }
+
+  .homee:nth-child(3){
+    transition-delay: 50ms;
+  }
+
+  .homee:nth-child(4){
+    transition-delay: 60ms;
+  }
+  .homee:nth-child(5){
+    transition-delay: 80ms;
+  }
+
+  .homee:nth-child(6){
+    transition-delay: 90ms;
+  }
+
+  .homee:nth-child(7){
+    transition-delay: 100ms;
+  }
+  homee:nth-child(8){
+    transition-delay: 100ms;
+  }
