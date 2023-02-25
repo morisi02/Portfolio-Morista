@@ -21,9 +21,13 @@ $('.navbar').on('sticky-end', function(){
     $('.hrNav').toggleClass('showNav');
     overlayNav.show();
     $('.showMenu').css("z-index","1000");
-    
+    $(this).toggleClass('navTelefonoAperto');
+
   })
 
+  $('.navTelefonoAperto').click(function(){
+    $(this).css("z-index", "0");
+  })
   
 
 
@@ -35,6 +39,7 @@ overlayNav.click(function(){
   $('.homee').removeClass('showNav');
   $('.hrNav').removeClass('showNav');
   $('.showMenu').css("z-index","0");
+  $('.navLinee').removeClass('navTelefonoAperto')
 })
 
 
