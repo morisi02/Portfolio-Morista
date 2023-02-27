@@ -158,6 +158,7 @@ nav ul li a:hover{
 	flex-direction: column;
 	justify-content: center;
 	padding-left: 10px;
+	justify-content: flex-end;
 }
 
 .descrizione h1, h2{
@@ -173,12 +174,14 @@ nav ul li a:hover{
 .descrizione h1{
 	transition: all;
 	animation: intro 1.2s ;
+	font-weight: bolder;
 }
 
 .descrizione h2{
 	transition: all;
-	text-decoration: underline overline #FF3028;
+	text-decoration: underline #FF3028;
 	animation: intro 1.4s;
+	font-weight: bolder;
 }
 
 
