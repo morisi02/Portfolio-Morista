@@ -8,6 +8,7 @@ $('.navbar').on('sticky-start', function(){
 
 $('.navbar').on('sticky-end', function(){
     $('.morista').show('slow');
+    
 })
 
 
