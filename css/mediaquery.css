@@ -1,11 +1,20 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 809px) {
     
   }
 
 
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 810px) {
+   .descrizione h1{
+    font-size: 35px;
+   }
    
+   .descrizione h2{
+    font-size: 25px;
+   }
+
+
   }
+
 
   /* TELEFONI */
   @media only screen and (max-width: 767px) {
@@ -74,7 +83,12 @@
       
     }
 
+    #desciption{
+      width: 95%;
+    }
 
+
+    
 
 
     .navLinee{
@@ -105,14 +119,15 @@
         /*background-color: rgba(209, 52, 52, 0.93);*/
         margin-right: 0;
         width: 40%;
-        
         height: 100vh;
         top: 0%;
         transition: all 0.3s;
-        z-index: 0;
         /*box-shadow: 0 4px 8px 0 rgba(59, 50, 43, 0.789);*/
     }
 
+    .navZindex{
+      z-index: 1000;
+      }
   
 
 
@@ -182,6 +197,6 @@
   .homee:nth-child(7){
     transition-delay: 100ms;
   }
-  homee:nth-child(8){
+  .homee:nth-child(8){
     transition-delay: 100ms;
   }

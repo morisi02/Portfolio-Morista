@@ -16,13 +16,16 @@ $('.navbar').on('sticky-end', function(){
 
   $('.navLinee').click(function(){
     event.preventDefault();
+    $('.showMenu').toggleClass('navZindex')
     $('.homee').toggleClass('showNav');
     $('.hrNav').toggleClass('showNav');
     overlayNav.show();
-    $('.showMenu').css("z-index","1000");
     $(this).toggleClass('navTelefonoAperto');
 
   })
+
+
+
 
   $('.navTelefonoAperto').click(function(){
     $(this).css("z-index", "0");
@@ -37,8 +40,8 @@ overlayNav.click(function(){
   overlayNav.hide();
   $('.homee').removeClass('showNav');
   $('.hrNav').removeClass('showNav');
-  $('.showMenu').css("z-index","0");
   $('.navLinee').removeClass('navTelefonoAperto')
+  $('.showMenu').removeClass('navZindex')
 })
 
 

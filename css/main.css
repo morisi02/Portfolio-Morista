@@ -145,6 +145,7 @@ nav h2{
 	animation: morista 2s backwards;
 }
 
+
 span{
 	color: white;
 }
@@ -157,6 +158,7 @@ nav ul li a:hover{
 
 #desciption{
 	height: 80%;
+	width: 80%;
 }
 
 .descrizione{
