@@ -8,10 +8,8 @@ $('.navbar').on('sticky-start', function(){
 
 $('.navbar').on('sticky-end', function(){
     $('.morista').show('slow');
-    
+    $('#sticky-wrapper').css("height", "150px");
 })
-
-
 
 
 /****** NAV TELEFONO */
