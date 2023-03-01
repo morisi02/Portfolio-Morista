@@ -262,6 +262,11 @@ nav ul li a:hover{
   background-color: /*#bb3a3ae8*/ rgba(209, 52, 52, 0.888); ;
   padding-top: 5px;
   height: 70px;
+  margin-top: 8px;
+  max-width: 90%;
+  margin-left: 5%;
+  border-radius: 25px;
+  
 }
 
 .is-sticky .home{
