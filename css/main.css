@@ -346,16 +346,12 @@ nav ul li a:hover{
   /*****************************
         WORKS 
 		***********/
-#workProject{
+#workProject, #musicProject{
 	display: flex;
 	justify-content: space-between;
 	margin-top: 50px;
 }
-#musicProject{
-	display: flex;
-	justify-content: space-between;
-	margin-top: 50px;
-}
+
 
 #containerBottoni{
 	width: 70%;
@@ -375,15 +371,14 @@ nav ul li a:hover{
 	 transition-delay: 600ms;
  }
 
- .immagineWork{
-
+ .immagineWork, .immagineMusic{
 	border: 1px solid #BFBFBF;
 	box-shadow: 10px 10px 5px #aaaaaa;
 	width: 100%;
 	margin: 5px;
  }
 
- .immagineWork:hover{
+ .immagineWork:hover, .immagineMusic:hover{
 	transform: scale(1.1);
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	transition: 0.1s;
