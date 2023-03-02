@@ -142,7 +142,8 @@ nav ul li a, h2{
 nav h2{
 	font-size: 23px;
 	color: red;
-	animation: morista 2s backwards;
+	/*animation: morista 2s backwards;*/
+	
 }
 
 
