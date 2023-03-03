@@ -372,6 +372,17 @@ nav ul li a:hover{
 	 transition-delay: 600ms;
  }
 
+
+ .immagineMusic:nth-child(2){
+	transition-delay: 200ms;
+ }
+ .immagineMusic:nth-child(3){
+	 transition-delay: 400ms;
+ }
+ .immagineMusic:nth-child(4){
+	 transition-delay: 600ms;
+ }
+
  .immagineWork, .immagineMusic{
 	border: 1px solid #BFBFBF;
 	box-shadow: 10px 10px 5px #aaaaaa;
