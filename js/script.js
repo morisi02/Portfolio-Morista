@@ -22,13 +22,16 @@ $('.navbar').on('sticky-end', function(){
     overlayNav.show();
     $(this).toggleClass('navTelefonoAperto');
 
+    $('#linea2').toggleClass('visibilityNav');
+    $('#linea1').toggleClass('rotate1');
+    $('#linea3').toggleClass('rotate2');
   })
-
 
 
 
   $('.navTelefonoAperto').click(function(){
     $(this).css("z-index", "0");
+    
   })
   
 
@@ -36,12 +39,17 @@ $('.navbar').on('sticky-end', function(){
 var overlayNav= $("<div id='overlayNav'></div>");
 $('body').append(overlayNav);
 
+
 overlayNav.click(function(){
   overlayNav.hide();
   $('.homee').removeClass('showNav');
   $('.hrNav').removeClass('showNav');
-  $('.navLinee').removeClass('navTelefonoAperto')
-  $('.showMenu').removeClass('navZindex')
+  $('.navLinee').removeClass('navTelefonoAperto');
+  $('.showMenu').removeClass('navZindex');
+  $('#linea2').removeClass('visibilityNav');
+  $('#linea1').removeClass('rotate1');
+  $('#linea3').removeClass('rotate2');
+
 })
 
 
@@ -123,6 +131,9 @@ $('.carousel-slick').slick({
     ]
   });
   
+
+
+
   /***BOTTINI WORK */
   $('#programmazione').css("background-color" , "#ff0000c1");
 

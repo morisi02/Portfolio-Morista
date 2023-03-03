@@ -92,6 +92,22 @@
         position: relative;
     }
 
+    .visibilityNav{
+      visibility: hidden;
+      transition: all ;
+    }
+
+    .rotate1{
+      transform: rotate(45deg) translateY(10px);
+      transition: all 0.2s;
+      
+    }
+
+    .rotate2{
+      transform: rotate(-45deg) translateY(-10px) ;
+      transition: all 0.2s;
+      
+    }
 
     .contenitore{
       display: none;
@@ -114,6 +130,7 @@
         z-index: 100;
         right: 5%;
         transform: translate(-10%, 50%);
+        
     }
 
     .is-sticky .navLinee{
