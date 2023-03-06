@@ -194,6 +194,11 @@
 
   }
 
+   /** MORISTA */
+   #head h2{
+    transform: translateY(-30px);
+  }
+
   .homee{
     height: 35px;
     background-color: rgba(209, 52, 52, 0.93);
