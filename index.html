@@ -182,7 +182,7 @@
     </section>
 
 
-  <div class="ezio " style="display: flex; justify-content: center; margin-top: 20px;  ">
+  <div class="ezio" style="display: flex; justify-content: center; margin-top: 20px;  ">
     <div class="container" id="full-stack">
       <ul class="ezioUl">
         <h1 class="hidden" style="color: #000; text-decoration: underline 3px #f31b1bc9; width: 100%; text-align: center; font-weight: bolder; ">Cosa vuol dire FULL STACK? <img class="font" src="immagini/open_in_full_FILL0_wght400_GRAD0_opsz48.png"></h1>
@@ -191,9 +191,9 @@
             Il "Back end" invece, è formata dalla parte di amministrazione e modifica dei dati, non visibile, ed accessibile solamente dai programmatori del sito.
           </li>
       </ul>
-      <div class="full-stack-foto hidden" style="padding: 10px;">
-        <img  src="immagini/full-stack-esempio.jpg">
-        <img class="es-foto2" src="immagini/Full-stack-es2.jpg">
+      <div class="full-stack-foto" style="padding: 10px;">
+        <img class="hidden" src="immagini/full-stack-esempio.jpg">
+        <img class="es-foto2 hidden" src="immagini/Full-stack-es2.jpg">
       </div>
    </div>
   </div>
@@ -201,7 +201,7 @@
     <section class="contactme" id="contact">
       <div class="container">
         <div class="contact" style="width: 75%; margin: 0 auto;">
-      <form action="https://formsubmit.co/moristacontact@gmail.com" method="POST">
+      <form action="https://formsubmit.co/b2cda96cac467d9638a09af5214b04fb" method="POST">
         <div class="descrizionecontatti">
           <h1>Contattami per qualsiasi lavoro, farò il più possibile per aiutarti.</h1>
         </div>
@@ -211,14 +211,14 @@
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Per cosa mi contatti?</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select name="for-what?" class="form-control" id="exampleFormControlSelect1">
             <option>Siti Web</option>
             <option>Per musica/collab/altro</option>
           </select>
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Scrivimi cosa vuoi chiedere</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea  name="message" placeholder="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <button type="submit" class="btn btn-md btn-dark" id="formbtn">Invia</button>  
       </form>
@@ -246,15 +246,9 @@
     </section>
 
 
-    <footer
-          class="text-center text-lg-start text-white"
-          style="background-color: #292c28cb"
-          >
+  <footer class="text-center text-lg-start text-white" style="background-color: #292c28cb">
     <!-- Section: Social media -->
-    <section
-             class="d-flex justify-content-between p-4"
-             style="background-color: #bb3a3ace"
-             >
+    <section class="d-flex justify-content-between p-4" style="background-color: #bb3a3ace">
       <!-- Left -->
       <div class="textcv">
         <h3 class="cv" style="font-family: 'Ubuntu', sans-serif;">

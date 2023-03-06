@@ -3,13 +3,16 @@
 $('.navbar').sticky();
 
 $('.navbar').on('sticky-start', function(){
-    $('.morista').hide('slow');
+    $('.morista').hide('fast');
 })
 
 $('.navbar').on('sticky-end', function(){
-    $('.morista').show('slow');
+    $('.morista').show('fast');
     $('#sticky-wrapper').css("height", "150px");
 })
+
+
+
 
 
 /****** NAV TELEFONO */
@@ -26,8 +29,6 @@ $('.navbar').on('sticky-end', function(){
     $('#linea1').toggleClass('rotate1');
     $('#linea3').toggleClass('rotate2');
   })
-
-
 
   $('.navTelefonoAperto').click(function(){
     $(this).css("z-index", "0");
