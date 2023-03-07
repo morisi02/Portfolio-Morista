@@ -54,24 +54,18 @@
     #workProject, #musicProject{
         flex-direction: column;
         align-items: center;
-        width: 95%;
-    }
-
-
-
-   .immagineMusic{
-        max-width: 70%;
-      
+        width: 90%;
     }
 
     .immagineWork{
       width: 80%;
-    
+      
     }
 
     .immagineMusic{
-      width: 60%;
+      padding: 5px;
       margin-bottom: 5px;
+      max-width: 80%;
     }
 
     .logoWork{

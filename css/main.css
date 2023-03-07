@@ -91,9 +91,7 @@ main {
 	
 }
 
-#head h2{
 
-}
 
 .navbar{
 	max-width: 90%;
@@ -355,14 +353,19 @@ nav ul li a:hover{
   /*****************************s
         WORKS 
 		***********/
+
+#workProject{
+	height: 100%;
+}
+
 #workProject, #musicProject{
 	display: flex;
 	justify-content: space-between;
-	margin-top: 50px;
+	padding-top: 60px;
 }
 
 #musicProject{
-	max-width: 80%;
+	max-width: 95%;
 }
 
 #containerBottoni{
@@ -372,6 +375,14 @@ nav ul li a:hover{
 .logoWork{
   padding: 5px;
 }
+
+.immagineWork, .immagineMusic{
+	border: 1px solid #BFBFBF;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	width: 100%;
+	margin: 5px;
+	max-height: 100%;
+ }
 
 .immagineWork:nth-child(2){
 	transition-delay: 200ms;
@@ -394,12 +405,6 @@ nav ul li a:hover{
 	 transition-delay: 600ms;
  }
 
- .immagineWork, .immagineMusic{
-	border: 1px solid #BFBFBF;
-	box-shadow: 10px 10px 5px #aaaaaa;
-	width: 100%;
-	margin: 5px;
- }
 
  .immagineWork:hover, .immagineMusic:hover{
 	transform: scale(1.1);
@@ -515,14 +520,18 @@ nav ul li a:hover{
     position: fixed;
     top: 0;
     left: 0;
-    display: none;
+	visibility: hidden;
     text-align: center;
     cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
   }
 
   #overlay img {
     width: 70%;
-    margin-top: 80px;
+    
     align-items: center;
     justify-content: center;
   }
@@ -622,7 +631,7 @@ footer{
 }
 
 
-
+/*** PER NAV */
 .hideMenu{
 	opacity: 0;
 	filter: blur(5px);

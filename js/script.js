@@ -64,6 +64,7 @@ overlayNav.click(function(){
  $('.carousel-slick .certificato').click(function(){
   event.preventDefault();
   overlay.show('slow');
+  overlay.css("visibility", "visible")
   var href= $(this).attr('src');
   
   img.show('slow').attr('src', href);
@@ -86,6 +87,7 @@ overlayNav.click(function(){
 $('#works .immagineWork img').click(function(){
   event.preventDefault();
   overlay.show('slow');
+  overlay.css("visibility", "visible")
   var href= $(this).attr('src');
   
   img.show('slow').attr('src', href);
