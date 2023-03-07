@@ -365,7 +365,7 @@ nav ul li a:hover{
 }
 
 #musicProject{
-	max-width: 95%;
+	max-width: 80%;
 }
 
 #containerBottoni{
@@ -376,12 +376,19 @@ nav ul li a:hover{
   padding: 5px;
 }
 
-.immagineWork, .immagineMusic{
+.immagineWork{
 	border: 1px solid #BFBFBF;
 	box-shadow: 10px 10px 5px #aaaaaa;
 	width: 100%;
 	margin: 5px;
 	max-height: 100%;
+ }
+
+ .immagineMusic{
+	border: 1px solid #BFBFBF;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	width: 50%;
+	margin: 5px;
  }
 
 .immagineWork:nth-child(2){
