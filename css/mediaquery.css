@@ -187,7 +187,26 @@
         margin-top: 50px;
     }
 
+    /** FOTO CV CONTACT */
+    .contact{
+      flex-wrap: wrap;
+    }
+
+    .foto-cv{
+      margin: auto auto;
+      max-width: 50%;
+    }
+
+    .foto-cv img{
+      width: 100%;
+    }
+
+    .form{
+      margin: auto auto;
+    }
+
   }
+
 
    /** MORISTA */
    #head h2{
@@ -232,6 +251,7 @@
   .homee:nth-child(8){
     transition-delay: 100ms;
   }
+
 
 
   /*****TELFONINI MEDI/PICCOLI*/

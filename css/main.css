@@ -476,6 +476,27 @@ nav ul li a:hover{
 
 }
 
+/** FOTO CV E FORM */
+.contact{
+	display: flex;
+}
+
+.foto-cv{
+	max-width: 30%;
+	margin: auto auto;
+	margin-right: 15px;
+}
+
+.foto-cv img{
+	width: 80%;
+}
+
+.form{
+	width: 90%;
+}
+
+
+
 /*********************************
 ***** CERTIFICATI *****************/
 
