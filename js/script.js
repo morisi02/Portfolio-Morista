@@ -12,9 +12,6 @@ $('.navbar').on('sticky-end', function(){
 })
 
 
-
-
-
 /****** NAV TELEFONO */
 
   $('.navLinee').click(function(){
@@ -35,8 +32,6 @@ $('.navbar').on('sticky-end', function(){
     
   })
   
-
-
 var overlayNav= $("<div id='overlayNav'></div>");
 $('body').append(overlayNav);
 
@@ -53,8 +48,22 @@ overlayNav.click(function(){
 
 })
 
+/***** HR DOPO NAV */
+let hr= document.getElementById("hr-scrolled");
+let y= window.screen.height;
 
+window.addEventListener('scroll', ()=>{
+  let altezza= window.scrollY;
+  
+  if(screen.width>1000){
+    hr.style.width= altezza / 100 * 3.6 + '%';
+  }else if(screen.width>500){
+    hr.style.width= altezza / 100 * 2.2 + '%';
+  }else{
+   hr.style.width= altezza / 100 * 2.1 + '%';
+  }
 
+});
 
 
 

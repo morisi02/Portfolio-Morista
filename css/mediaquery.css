@@ -4,14 +4,6 @@
 
 
   @media only screen and (min-width: 810px) {
-   .descrizione h1{
-    font-size: 35px;
-   }
-   
-   .descrizione h2{
-    font-size: 25px;
-   }
-
 
   }
 
@@ -189,6 +181,7 @@
 
     /** FOTO CV CONTACT */
     .contact{
+      display: flex;
       flex-wrap: wrap;
     }
 
