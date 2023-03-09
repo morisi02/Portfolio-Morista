@@ -245,17 +245,19 @@ nav ul li a:hover{
     font-size: 150%;
 }
 
-#cv{margin: 0 auto;}
+.bottoni{
+	justify-content: center;
+
+}
 
 .bottonecv{
 	cursor: pointer;
-	text-decoration: wavy;
 	font: bold 12px Arial, Helvetica, sans-serif;
 	color: #fff;
 	padding: 10px 10px;
 	border: solid 1px #392b36;
-	background: #b25858e7;
-	border-radius: 20px;
+	background: #db5353e7;
+	border-radius: 5px;
 	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -286,7 +288,6 @@ nav ul li a:hover{
 	   
 	   }
 }
-
 
 @keyframes rotation {
 	from {

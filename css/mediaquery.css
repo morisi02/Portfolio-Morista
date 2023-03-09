@@ -13,6 +13,7 @@
 
   /* TELEFONI */
   @media only screen and (max-width: 767px) {
+
     #titleEx2{
         font-size: 25px;
         font-weight: bold;
@@ -203,14 +204,17 @@
       font-size: 200%;
      }
 
+     /*morista*/
+     #head h2{
+      transform: translateY(-15px);
+    }
+
   }
 
 
-   /** MORISTA */
-   #head h2{
-    transform: translateY(-30px);
-  }
 
+
+/************** MORISTA ********/
   .homee{
     height: 35px;
     background-color: rgba(209, 52, 52, 0.93);
@@ -249,8 +253,6 @@
   .homee:nth-child(8){
     transition-delay: 100ms;
   }
-
-
 
   /*****TELFONINI MEDI/PICCOLI*/
   @media only screen and (max-width: 650px) {

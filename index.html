@@ -43,8 +43,6 @@
           <div class="line" id="linea3"></div>
         </div>
       <!---->
-    
-
         <div class="contenitore" style="height: 90%;">
           <ul class="ull" id="menu" style="height: 100%;">
             <li id="liDiUl"  class="home"><a href="index.html">Home</a></li>
@@ -72,10 +70,13 @@
       <div class="container" id="desciption">
         <div class="descrizione">
         <!--<hr class="hr" style="border-top: 5px solid #ff0101; opacity: 0.8; width: 20%;">-->
-        <h1 style="color: #fff;">° Web <span style="color: #ff0101;">Developer</span></h1>
+        <h1 style="color: #fff;">Ciao, Sono ... <span class="auto-type" style="color: #ff0101;"></span> </h1>
         <h2 class="full-stack-p" style="color: white;">°Full Stack |<span>  °Producer</span> </h2>
-        <a class="hidden" id="cv" href="fileDowload/Marco_Morisi_CV.pdf" download="CV.pdf"><input type="button" class="bottonecv" value="Scarica CV"></a>
-        
+        <div class="bottoni" style="display: flex;">
+          <a class="hidden" id="cv" href="fileDowload/Marco_Morisi_CV.pdf" download="CV.pdf"><input type="button" class="bottonecv" value="Scarica CV"></a>
+          <a href="#contact" class="hidden" id="cv"><button class="bottonecv" style="margin-left: 5px;">CONTATTAMI</button></a>
+        </div>
+       
         </div>
       </div>
 
@@ -394,6 +395,18 @@
 });
 
     </script>
+     <!--ANIMAZIONE TESTO-->
+     <script src="js/text.js"></script>
+     <script>
+      var typed= new Typed(".auto-type", {
+        strings: ["Marco", "Coder", "Full Stack", "Web Developer"],
+        typeSpeed: 150,
+        backSpeed:100,
+        startDelay: 1000,
+        loop:false
+      })
+     </script>
+
     <!-- STICKY NAV-->
     <script src="sticky/jquery.sticky.js"></script>
     <script src="sticky/stickyprova.js"></script>
