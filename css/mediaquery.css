@@ -105,10 +105,6 @@
       width: 95%;
     }
 
-
-    
-
-
     .navLinee{
         position: absolute;
         display: table;
@@ -192,6 +188,7 @@
 
     .foto-cv img{
       width: 100%;
+      padding-bottom: 8%;
     }
 
     .form{
