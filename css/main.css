@@ -374,6 +374,10 @@ nav ul li a:hover{
   /*****************************s
         WORKS 
 		***********/
+.checkMyW{
+ font-weight: bolder;
+ font-size: xx-large;
+}
 
 #workProject{
 	height: 100%;
