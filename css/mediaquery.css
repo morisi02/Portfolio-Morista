@@ -4,7 +4,10 @@
 
 
   @media only screen and (min-width: 810px) {
-
+    
+    .foto-cv img{
+      margin-bottom: 5%;
+    }
   }
 
 
@@ -188,7 +191,7 @@
 
     .foto-cv img{
       width: 100%;
-      padding-bottom: 8%;
+      margin-bottom: 8%;
     }
 
     .form{
