@@ -214,8 +214,7 @@ nav ul li a:hover{
 
 }
 
-/*******/
-
+/**** DESCRIZIONE MAIN-HEADER***/
 #desciption{
 	height: 80%;
 	width: 80%;
@@ -231,7 +230,7 @@ nav ul li a:hover{
 
 #font-morista{
 	width: 40px;
-	
+	color:#BFBFBF;
 }
 
 .descrizione h1{
