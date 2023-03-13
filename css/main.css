@@ -229,12 +229,17 @@ nav ul li a:hover{
 	transition: all 0.5s;
 }
 
+#font-morista{
+	width: 40px;
+	
+}
+
 .descrizione h1{
 	margin: 0 auto;
 	transition: all;
 	animation: intro 0.8s ;
 	font-weight: bolder;
-    font-size: 250%;
+    font-size: 220%;
 }
 
 .descrizione h2{

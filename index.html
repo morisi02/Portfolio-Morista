@@ -14,6 +14,7 @@
     <script src="font/font.js" crossorigin="anonymous"></script>
     <!-- FONT FAMILY-->
     <link href="css/fontfamily.css" rel="stylesheet">
+    <link href="css/font-family-OSWEL.css" rel="stylesheet">
     <!-- SLICK CAR  OUSEL-->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -69,14 +70,13 @@
 
       <div class="container" id="desciption">
         <div class="descrizione">
-        <!--<hr class="hr" style="border-top: 5px solid #ff0101; opacity: 0.8; width: 20%;">-->
-        <h1 style="color: #fff;">Ciao, Sono ... <span class="auto-type" style="color: #ff0101;"></span> </h1>
+        <h1 style="font-family: oswald; font-weight: bolder; text-decoration: double 2px #7c4dff;" class="mpiufont" style="color: #fff;"><span class="type"></span></h1>
+        <h1 style="color: #fff;">Ciao, Sono.. <span class="auto-type" style="color: #ff0101;"></span></h1>
         <h2 class="full-stack-p" style="color: white;">°Full Stack |<span>  °Producer</span> </h2>
         <div class="bottoni" style="display: flex;">
           <a class="hidden" id="cv" href="fileDowload/Marco_Morisi_CV.pdf" download="CV.pdf"><input type="button" class="bottonecv" value="Scarica CV"></a>
           <a href="#contact" class="hidden" id="cv"><button class="bottonecv" style="margin-left: 5px;">CONTATTAMI</button></a>
         </div>
-       
         </div>
       </div>
 
@@ -95,7 +95,9 @@
           <div class="row" id="row" style="font-family: 'Ubuntu', sans-serif;">
             <div class="col-12 col-lg-6 col-xl-4 pe-0 pe-md-5 mb-3 font-serif hidden">Sono un ragazzo di 20 anni capace di fornire servizi ed adattarsi a qualsiasi contesto lavorativo. Ho lavorato per 2 anni nell'ambito della ristorazione e studiato la figura di Full Stack Web Delevoper.</div>
             <div class="col-12 col-lg-6 col-xl-4 pe-0 pe-md-5 mb-3 font-serif hidden">Come linguaggi di programmazione ho approfondito Java, JS e JQuery ed il mio prossimo obiettivo è quello di implementare Python.
-                 Come linguaggi di Markup ho studiato Html, Css, Sass, SQL, Bootstrap, Docker, GIT e google analytics.
+                 Come linguaggi di Markup, invece, Html, Css, Sass e Bootstrap.
+                 <hr style="visibility: hidden;">
+                 Altri linguaggi/servizi : SQL, Git, Docker e Google Analytics.
             </div>
             <div class="col-12 col-lg-6 col-xl-4 pe-0 pe-md-5 font-serif hidden">Le mie principali passioni sono la musica, fotografia e l'arte, le quali piacerebbe unirle con gli studi per la creazione di Siti Web e Web App. 🅼🅾🆁🅳🅸 🅴 🆁🅸🅽🅶🅷🅸🅰 🅲🅾🅼🅴 🆄🅽 🅲🅰🅽🅴: o tutto o nulla, niente mezzi termini.</div>
           </div>
@@ -117,9 +119,7 @@
             <hr class="ezioHr">
             <ul class="ezioUl hidden">
               <li>Recato servizio lavorativo presso Bar e Ristoranti; e iniziato primi lavori di programmazione per scopi personali.</li>
-              <li>Seguito corsi e studi da Web Developer presso Lacerba.io</li>
-              <li>Linguaggi: Html, Css, Sass, js, JQuery, GIT, Docker, Java, SQL...</li>
-            </ul>  
+              <li>Seguito corsi e studi da Web Developer presso Lacerba.io</li>            </ul>  
             <hr class="ezioHr ">
             <ul class="ezioUl hidden">
               <h2 style="color: #000; text-decoration: underline #ff0101; width: 100%; text-align: center; font-weight: bold;">Skills : </h2>
@@ -399,12 +399,21 @@
      <script src="js/text.js"></script>
      <script>
       var typed= new Typed(".auto-type", {
-        strings: ["Marco", "Coder", "Full Stack", "Web Developer"],
+        strings: ["Coder", "Full Stack-Developer"],
         typeSpeed: 150,
         backSpeed:100,
         startDelay: 1000,
         loop:false
+      })      
+
+      var typeMorista= new Typed(".type", {
+        strings:["Morista <img src='immagini/hand-point-left-solid.png' class='font' id='font-morista' />"],
+        typeSpeed:70,
+        startDelay:500,
+        loop: false,
+
       })
+
      </script>
 
     <!-- STICKY NAV-->
