@@ -75,7 +75,10 @@
       <div class="container" id="desciption">
         <div class="descrizione">
         <h1 style="font-family: oswald; font-weight: bolder;" class="mpiufont" style="color: #fff;"><span class="type"></span></h1>
-        <h1 style="color: #fff;">Ciao, Sono.. <span class="auto-type" style="color: #ff0101;"></span></h1>
+        <div class="writing">
+          <h1 style="color: #fff;">- <span class="auto-type" style="color: #ff0101;"></span></h1>
+          <h1 style="color: #fff;">-  <span class="auto-type2" style="color: #ff0101;"></span></h1>
+        </div>  
         <h2 class="full-stack-p" style="color: white;">°Full Stack |<span>  °Producer</span> </h2>
         <div class="bottoni" style="display: flex;">
           <a class="hidden" id="cv" href="fileDowload/Marco_Morisi_CV.pdf" download="CV.pdf"><input type="button" class="bottonecv" value="Scarica CV"></a>
@@ -88,7 +91,7 @@
 
 
     <section class="recensioni">
-      
+
     </section>
 
     <section class="section" aria-describedby="titleEx2" id="aboutsection">
@@ -407,16 +410,24 @@
      <script src="js/text.js"></script>
      <script>
       var typed= new Typed(".auto-type", {
-        strings: ["Coder", "Full Stack-Developer"],
+        strings: ["Coder"],
         typeSpeed: 120,
         backSpeed:90,
-        startDelay: 2000,
+        startDelay: 1500,
         loop:false
       })      
 
+      var typed= new Typed(".auto-type2", {
+        strings: ["Web Developer"],
+        typeSpeed: 75,
+        backSpeed:90,
+        startDelay: 2200,
+        loop:false
+      })  
+
       var typeMorista= new Typed(".type", {
         strings:["Morista's Portfolio <img src='immagini/point.png' class='font' id='font-morista' />"],
-        typeSpeed:50,
+        typeSpeed:35,
         startDelay:500,
         loop: false,
 

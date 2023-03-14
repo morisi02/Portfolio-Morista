@@ -233,6 +233,13 @@ nav ul li a:hover{
 	color:#BFBFBF;
 }
 
+
+.writing{
+	display: flex;
+	flex-direction: column;
+}
+
+
 .descrizione h1{
 	margin: 0 auto;
 	transition: all;
