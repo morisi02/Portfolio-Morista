@@ -21,7 +21,6 @@ $('.navbar').on('sticky-end', function(){
     $('.hrNav').toggleClass('showNav');
     overlayNav.show();
     $(this).toggleClass('navTelefonoAperto');
-
     $('#linea2').toggleClass('visibilityNav');
     $('#linea1').toggleClass('rotate1');
     $('#linea3').toggleClass('rotate2');

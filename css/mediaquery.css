@@ -145,7 +145,11 @@
     }
 
     .navZindex{
-      z-index: 1000;
+      z-index: 99;
+      }
+
+      .is-sticky .navLinee{
+        z-index: 1000;
       }
   
 
